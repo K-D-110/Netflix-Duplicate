@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="demo-style.css" />
+
+  <title>Flix Component Library</title>
+</head>
+
+<body>
+  <h1>Flix Demo Page</h1>
+  <section>
+    <h3>Banner</h3>
+
+    <flix-button id="info-banner-btn" data-value="Click to see the info banner"></flix-button>
+    &NonBreakingSpace;
+    <flix-button id="error-banner-btn" data-value="Click to see the error banner"></flix-button>
+    <flix-banner id="info-banner" data-message="i'm an infomational banner, click X to close" data-visible="false"
+      data-variant="info"></flix-banner>
+    <flix-banner id="error-banner" data-message="i'm an error banner, click X to close" data-visible="false"
+      data-variant="error"></flix-banner>
+
+
+    <div class="example">
+      <h3>Sample Code</h3>
+      <pre>
+      &lt;flix-banner id="info-banner" data-message="i'm an infomational banner, click X to close" data-visible="false" data-variant="info"&gt;&lt;/flix-banner&gt;
+    </pre>
+    </div>
+
+    <h3>Props</h3>
+    <div class="prop-table">
+      <div class="row">
+        <div class="table-header">Prop Name</div>
+        <div class="table-header">Prop Values</div>
+        <div class="table-header">Default</div>
+      </div>
+      <div class="row">
+        <pre>data-variant</pre>
+        <pre>info | error</pre>
+        <pre>info</pre>
+      </div>
+      <div class="row">
+        <pre>data-message</pre>
+        <p>any string</p>
+        <pre></pre>
+      </div>
+      <div class="row">
+        <pre>data-visible</pre>
+        <pre>true | false</pre>
+        <pre></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Button</h3>
+    <flix-button data-value="Primary Button" data-icon="/assets/icons/add.svg"></flix-button>
+    <flix-button data-value="Secondary Button" data-icon="/assets/icons/checkmark.svg" data-variant="secondary">
+    </flix-button>
+
+    <div class="example">
+      <h3>Sample Code</h3>
+      <pre>
+        &lt;flix-button data-value="Secondary Button" data-icon="/assets/icons/checkmark.svg" data-variant="secondary"&gt;&lt;/flix-button&gt;
+      </pre>
+    </div>
+
+
+    <h3>Props</h3>
+    <div class="prop-table">
+      <div class="row">
+        <div class="table-header">Prop Name</div>
+        <div class="table-header">Prop Values</div>
+        <div class="table-header">Default</div>
+      </div>
+      <div class="row">
+        <pre>data-variant</pre>
+        <pre>primary | secondary</pre>
+        <pre>primary</pre>
+      </div>
+      <div class="row">
+        <pre>data-value</pre>
+        <p>any string</p>
+        <pre></pre>
+      </div>
+      <div class="row">
+        <pre>data-icon</pre>
+        <p>optional path to an icon image</p>
+        <pre></pre>
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import render from './flix-demo.js';
+
+    document.addEventListener('DOMContentLoaded', function (event) {
+      render();
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="component-library/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Netflix</title>
+</head>
+<body>
+  <main>
+    <div class="billboard">
+    </div>
+  </main>
+  
+  <template id="boxart">
+    <div class="boxart">
+      <img />
+    </div>
+  </template>
+  
+  <template id="billboard">
+    <section>
+      <img class="storyart" />
+      <div class="gradient content">
+        <h2></h2>
+        <div class="detail-container">
+          <div class="metadata-row">
+          </div>
+          <flix-button id="toggleBtn"></flix-button>
+        </div>
+        <div class="topTen"></div>
+        <p class="logline"></p>
+      </div>
+      <div class="boxart-col"></div>
+    </section>
+  </template>
+
+  <template id="row">
+    <div class="video-row"></div>
+  </template>
+
+  <script type="module">
+    import render from './app.js';
+
+    document.addEventListener('DOMContentLoaded', async function (event) {
+      await render();
+
+      // After rendering, select the first boxart and trigger a click event
+      const firstBoxart = document.querySelector('.boxart-col .boxart');
+      if (firstBoxart) {
+        firstBoxart.click();
+      }
+    });
+  </script>
+</body>
+</html>

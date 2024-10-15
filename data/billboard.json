@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Stranger Things",
+    "id": 100,
+    "logline": "When a young boy vanishes, a small touwn uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+    "metadata": {
+      "releaseYear": 2022,
+      "rating": "TV-14",
+      "extra": "4 Seasons",
+      "topTen": "#1 in TV Shows Today",
+      "isOriginal": true,
+      "storyart": "http://localhost:3000/assets/storyart/strangerthings.webp",
+      "boxart": "http://localhost:3000/assets/boxart/strangerthings.jpg"
+    }
+  },
+  {
+    "title": "The Harder They Fall",
+    "id": 10,
+    "logline": "Nat Love. Rufus Buck. Stagecoach Mary. Real-life Old West legends inspire a tale of two rival outlaws, their rode-or-die ganges and a quest for revenge.",
+    "metadata": {
+      "releaseYear": 2021,
+      "rating": "R",
+      "extra": "2h 19m",
+      "topTen": null,
+      "isOriginal": true,
+      "storyart": "http://localhost:3000/assets/storyart/thehardertheyfall.webp",
+      "boxart": "http://localhost:3000/assets/boxart/thehardertheyfall.jpg"
+    }
+  },
+  {
+    "title": "Squid Game",
+    "id": 1000,
+    "logline": "Hoping to win easy money, a broke and desperate Gi-hun agrees to take part in an enigmatic game. Not long into the first round, unforseen horrors unfold.",
+    "metadata": {
+      "releaseYear": 2021,
+      "rating": "TV-MA",
+      "extra": "1 Seasons",
+      "isOriginal": true,
+      "storyart": "http://localhost:3000/assets/storyart/squidgame.webp",
+      "boxart": "http://localhost:3000/assets/boxart/squidgame.jpg"
+    }
+  },
+  {
+    "title": "Bridgerton",
+    "id": 1,
+    "logline": "Set in \"an idealized, more inclusinve millieu,\" this Emmy-nominated series offers a \"headey, inviting fantasy of pleasure and true love,\" says Vulture.",
+    "metadata": {
+      "releaseYear": 2022,
+      "rating": "TV-MA",
+      "extra": "2 Seasons",
+      "isOriginal": true,
+      "storyart": "http://localhost:3000/assets/storyart/bridgerton.webp",
+      "boxart": "http://localhost:3000/assets/boxart/bridgerton.jpg"
+    }
+  },
+  {
+    "title": "The Adam Project",
+    "id": 100000,
+    "logline": "Ryan Reynolds and \"Free Guy\" director Shawn Levy reunite for this time-travel adventure about a fighter pilot who teams up with his younger self.",
+    "metadata": {
+      "releaseYear": 2022,
+      "rating": "PG-13",
+      "extra": "1h 46m",
+      "topTen": "Most Liked",
+      "isOriginal": true,
+      "storyart": "http://localhost:3000/assets/storyart/theadamproject.webp",
+      "boxart": "http://localhost:3000/assets/boxart/theadamproject.jpg"
+    }
+  }
+]

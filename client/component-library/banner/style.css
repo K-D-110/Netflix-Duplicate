@@ -1,0 +1,32 @@
+:host div.hidden {
+  display: none;
+}
+
+:host div {
+  background-color: var(--alpha-color-lighter);
+  padding: 12px;
+  position: fixed;
+  top: 24px;
+  left: 24px;
+  width: calc(100% - 72px);
+  display: flex;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--alpha-color);
+  z-index: 10;
+  color: black;
+}
+
+:host button {
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+:host div.error {
+  background-color: var(--red-2);
+  border-color: var(--red-1);
+}
